@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commons">
+      <UniqueIdentifier>{fdbf15bf-fa30-4e45-bd4b-3d8ce51b3755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{1a0d0213-f353-4fb6-86e4-326e19207eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{2703b5b7-0173-44a9-be9f-d1142bf84f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commons">
+      <UniqueIdentifier>{9522ab28-e982-4b30-a840-fc55a07e05f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{cddc822c-5226-4b38-ab21-7ef14c1d283e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{64c3b00d-4e89-4d5d-9a2d-13f6699f5745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives">
+      <UniqueIdentifier>{95187305-3184-47d0-ae0e-70f5d4093b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\instruments">
+      <UniqueIdentifier>{aec12548-5f96-432d-943b-639afc7e68c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\instruments\AbstractInstruments">
+      <UniqueIdentifier>{c18964c4-e9db-4912-8cb4-6dceae0f9fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\instruments\StructNotes">
+      <UniqueIdentifier>{30e48ccd-c7c4-43ed-aaf8-a7e05103285e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\instruments\Swaps">
+      <UniqueIdentifier>{537c27c7-bf1e-4104-af24-7f7d714bf840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\instruments">
+      <UniqueIdentifier>{211b20ef-5688-491c-9f76-b207b3654498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\instruments\StructNotes">
+      <UniqueIdentifier>{9aef8066-7495-4e03-a1c7-96f12de9eb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\instruments\Swaps">
+      <UniqueIdentifier>{8c737bb9-aa2e-4c00-9bd2-b1ae4073588e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Models">
+      <UniqueIdentifier>{ce7ff17d-b29f-490a-9238-925eaff5786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Models\HullWhite1F">
+      <UniqueIdentifier>{17997188-83d8-4921-8eaf-58e8c1b18f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Infos">
+      <UniqueIdentifier>{80ddf552-50df-4298-9184-31439d835eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Infos\IRInfo">
+      <UniqueIdentifier>{19a2a700-55fb-45c7-9ec9-affb7515c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Infos\LegInfo">
+      <UniqueIdentifier>{0b793498-eaaf-46dc-936a-fb5773c439fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Pricers">
+      <UniqueIdentifier>{985c426e-0300-44cc-a209-ff46e6553097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\derivatives">
+      <UniqueIdentifier>{b8d404f0-9581-4f43-8a11-cb615f8b7c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\derivatives\Pricers">
+      <UniqueIdentifier>{4fbd0d80-1915-49a9-bfdb-ef1690c22b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Arguments">
+      <UniqueIdentifier>{e3bbd130-cda1-48ee-85e9-294e6ec4f616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\derivatives\Models">
+      <UniqueIdentifier>{d48d8c01-ae95-4622-ad59-9756009a0a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\derivatives\Models\LSMC">
+      <UniqueIdentifier>{a5168eba-fc1f-403f-b2f2-bad74b7143c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Models\LSMC">
+      <UniqueIdentifier>{e22a7645-9e30-4f18-bdfe-3407248195c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Datas">
+      <UniqueIdentifier>{2170d963-fdb3-4bb3-a86a-a534899628b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\derivatives\Method">
+      <UniqueIdentifier>{c18b6c1a-e424-4d7f-b7a8-5626040edae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\derivatives\Method">
+      <UniqueIdentifier>{8fb51039-e17e-4319-a024-36ba081cf288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractPeriod.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestRate.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestRateCurve.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentPeriod.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Period.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="RateMarketDate.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Tenor.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Volatility.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="VolatilityCurve.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="VolatilitySurface.h">
+      <Filter>Header Files\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="quantosauros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRangeAccrualNote.h">
+      <Filter>Header Files\Core\instruments\AbstractInstruments</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAccrualNote.h">
+      <Filter>Header Files\Core\instruments\StructNotes</Filter>
+    </ClInclude>
+    <ClInclude Include="VanillaSwap.h">
+      <Filter>Header Files\Core\instruments\Swaps</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="pathgenerator.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="shortratemodels.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SABRCalibration.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="mclongstaffschwartzengine.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractLegInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LegCouponInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LegScheduleInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LegDataInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LegOptionInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="LegAmortizationInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\LegInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HullWhiteParameters.h">
+      <Filter>Header Files\Core\derivatives\Models\HullWhite1F</Filter>
+    </ClInclude>
+    <ClInclude Include="IRInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\IRInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="CorrelationInfo.h">
+      <Filter>Header Files\Core\derivatives\Infos\IRInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPricer.h">
+      <Filter>Header Files\Core\derivatives\Pricers</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractArguments.h">
+      <Filter>Header Files\Core\derivatives\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAccrualArguments.h">
+      <Filter>Header Files\Core\derivatives\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="LongstaffSchwartz.h">
+      <Filter>Header Files\Core\derivatives\Models\LSMC</Filter>
+    </ClInclude>
+    <ClInclude Include="marketmodel.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractData.h">
+      <Filter>Header Files\Core\derivatives\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeAccrualData.h">
+      <Filter>Header Files\Core\derivatives\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="CouponBondData.h">
+      <Filter>Header Files\Core\derivatives\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="CouponBondPricer.h">
+      <Filter>Header Files\Core\derivatives\Pricers</Filter>
+    </ClInclude>
+    <ClInclude Include="AccrualBondPricer.h">
+      <Filter>Header Files\Core\derivatives\Pricers</Filter>
+    </ClInclude>
+    <ClInclude Include="CouponBondArguments.h">
+      <Filter>Header Files\Core\derivatives\Arguments</Filter>
+    </ClInclude>
+    <ClInclude Include="HullWhiteVolatilityCalibration.h">
+      <Filter>Header Files\Core\derivatives\Method</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="quantoSauros.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quantosauros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestRate.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestRateCurve.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Tenor.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="VolatilityCurve.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="VolatilitySurface.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="VanillaSwap.cpp">
+      <Filter>Source Files\Core\instruments\Swaps</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeAccrualNote.cpp">
+      <Filter>Source Files\Core\instruments\StructNotes</Filter>
+    </ClCompile>
+    <ClCompile Include="Volatility.cpp">
+      <Filter>Source Files\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="pathgenerator.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="shorratemodels.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SABRCalibration.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="mclongstaffschwartzengine.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="LongstaffSchwartz.cpp">
+      <Filter>Source Files\Core\derivatives\Models\LSMC</Filter>
+    </ClCompile>
+    <ClCompile Include="marketmodel.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="AccrualBondPricer.cpp">
+      <Filter>Source Files\Core\derivatives\Pricers</Filter>
+    </ClCompile>
+    <ClCompile Include="HullWhiteVolatilityCalibration.cpp">
+      <Filter>Source Files\Core\derivatives\Method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="quantoSauros.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

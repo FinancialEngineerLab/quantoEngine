@@ -1,0 +1,4 @@
+LIBRARY "quantoSauros"
+EXPORTS
+	bootstrapping
+	test1
